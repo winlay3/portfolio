@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import Link, { LinkProps } from "next/link";
 import Image from "next/image";
@@ -65,13 +65,27 @@ type MenuProps = {
 };
 
 export const Menu = ({ setActive, children }: MenuProps) => {
+  const [isScroll,setIsScroll] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScroll(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll",handleScroll);
+    };
+  }, [])
   return (
     <nav
-      onMouseLeave={() => setActive(null)}
-      className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6"
-    >
-      {children}
-    </nav>
+    onMouseLeave={() => setActive(null)}
+    className={`relative rounded-full flex justify-center space-x-4 px-8 py-6 transition-all duration-300 ${
+      isScroll ? "border-none" : "border-2 border-gray-500 dark:border-gray-700"
+    }`}
+  >
+    {children}
+  </nav>
+
+
   );
 };
 
