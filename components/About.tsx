@@ -66,7 +66,7 @@ const About = () => {
               />
               <h3 className="text-lg font-semibold mt-3">Education</h3>
               <p className="text-md mt-2 text-gray-400">
-                Bachelor's in Software Engineering
+              Bachelor&apos;s in Software Engineering
               </p>
             </div>
 
