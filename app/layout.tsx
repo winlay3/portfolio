@@ -25,8 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-    <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" suppressHydrationWarning={true}>
+    <body className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning={true}>
       {/* Apply theme before hydration */}
       <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
         <MainNav />
