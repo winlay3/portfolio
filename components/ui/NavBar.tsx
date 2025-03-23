@@ -27,31 +27,32 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="text-sm grid grid-cols-1 gap-10 p-4 sm:grid-cols-2 lg:grid-cols-3">
             <ProductItem
-              title="Algochurn"
-              href="https://algochurn.com"
-              src="https://assets.aceternity.com/demos/algochurn.webp"
-              description="Prepare for tech interviews like never before."
+              title="DoiTung E-learning"
+              href="https://github.com/"
+              src="https://i.postimg.cc/mrPX5kQ0/home.png"
+              description="An interactive e-learning platform for enhancing education."
             />
             <ProductItem
-              title="Tailwind Master Kit"
-              href="https://tailwindmasterkit.com"
-              src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-              description="Production ready Tailwind css components for your next project"
+              title="University Dormitory System"
+              href="https://github.com/"
+              src="https://i.postimg.cc/DwrybfJ3/rentalx.png"
+              description="A system to manage student dormitory bookings and assignments."
             />
             <ProductItem
-              title="Moonbeam"
-              href="https://gomoonbeam.com"
-              src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
-              description="Never write from scratch again. Go from idea to blog in minutes."
+              title="University Sports Complex"
+              href="https://github.com/"
+              src="https://i.postimg.cc/qMd7BCqx/sportcomplex.png"
+              description="A platform to manage sports complex bookings and events."
             />
             <ProductItem
-              title="Rogue"
-              href="https://userogue.com"
-              src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+              title="Hackathon Project"
+              href="https://github.com/"
+              src="https://i.postimg.cc/HnFsbV9d/hackathon.png"
+              description="A collaborative hackathon project offering innovative solutions."
             />
           </div>
-        </MenuItem><HoveredLink href="#contact">Contact</HoveredLink>
+        </MenuItem>
+        <HoveredLink href="#contact">Contact</HoveredLink>
           
         
       </Menu>

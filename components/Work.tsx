@@ -1,29 +1,30 @@
 import React from 'react'
 import { Carousel } from './ui/carousel'
-
 const Work = () => {
-    const slideData = [
-        {
-          title: "Mystic Mountains",
-          button: "Explore Component",
-          src: "https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        },
-        {
-          title: "Urban Dreams",
-          button: "Explore Component",
-          src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        },
-        {
-          title: "Neon Nights",
-          button: "Explore Component",
-          src: "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        },
-        {
-          title: "Desert Whispers",
-          button: "Explore Component",
-          src: "https://images.unsplash.com/photo-1679420437432-80cfbf88986c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        },
-      ];
+  const slideData = [
+    {
+      title: "DoiTung E-Learning",
+      button: "View Project",
+      src: "https://i.postimg.cc/mrPX5kQ0/home.png"
+      // src: "https://www.doitung.com/wp-content/uploads/slider/cache/377b8e9eac2e17da04d2498921f7b596/doi_tung_RB300157.jpg"
+      // src: "https://drive.google.com/uc?export=view&id=17eF7Jxcw8pZ3DfXb6jcipnw3SU6lZv1X",
+    },
+    {
+      title: "University Dormitory System",
+      button: "View Project",
+      src: "https://i.postimg.cc/DwrybfJ3/rentalx.png",
+    },
+    {
+      title: "University Sports Complex",
+      button: "View Project",
+      src: "https://i.postimg.cc/qMd7BCqx/sportcomplex.png",
+    },
+    {
+      title: "Hackathon Project",
+      button: "View Project",
+      src: "https://i.postimg.cc/HnFsbV9d/hackathon.png",
+    },
+  ];
   return (
     <div className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mt-2 mb-4 text-lg z-50">

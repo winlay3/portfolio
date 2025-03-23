@@ -13,8 +13,9 @@ export default function Home() {
       <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto">
   <div className="max-w-7xl w-full px-5 sm:px-10">
     <Hero/>
-    <About/>
+    
   </div>
+  <About/>
   <Services/> {/* Now a direct child of main */}
   <div className="max-w-7xl w-full px-5 sm:px-10">
     <Work/>

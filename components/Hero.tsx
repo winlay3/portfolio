@@ -28,11 +28,11 @@ const Hero = () => {
       flex flex-col items-center justify-center'>
         <h2 className='uppercase tracking-widest text-xs text-center
         text-blue-100 max-w-80'>
-          Dynamic Web Magic with Next.js
+          Building Scalable & Engaging Web Apps
         </h2>
         <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Transforming Concepts into Seamless Experiences'/>
         <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-          Hi, I&apos;m Win, a full-stack Developer based in Thailand.
+          Hi, I&apos;m Win, a Full Stack Developer based in Thailand.
         </p>
         <a href='#about'>
           <MagicButton title='Show my work' withIcon/>
